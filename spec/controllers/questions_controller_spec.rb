@@ -4,14 +4,17 @@ describe QuestionsController do
 
   render_views
 
+  before do
+    Museum.create(name: "Sample Museum")
+    Exhibit.create(name: "Sample Exhibit", museum_id: 1)
+    Question.create(description: "Sample Question", exhibit_id: 1)
+  end
+
   it 'displays the questions for the correct museum exhibit from the database' do
-    test_museum = Museum.create(name: "Sample Museum")
-    test_exhibit = Exhibit.create(name: "Sample Exhibit", museum_id: test_museum.id)
-    test_question = Question.create(description: "Sample Question", exhibit_id: test_exhibit.id)
-    get :index, museum_id: test_museum.id, exhibit_id: test_exhibit.id
+    get :index, museum_id: 1, exhibit_id: 1
     parsed_body = JSON.parse(response.body)
     expect(response).to be_success
-    expect(parsed_body.last).to eq({"question"=> {"id"=> test_question.id, "description"=> 'Sample Question'}})
+    expect(parsed_body.last).to eq({"question"=> {"id"=> 1, "description"=> 'Sample Question'}})
   end
 
 end

@@ -46,6 +46,8 @@ group :development, :test do
   gem 'faker'
   gem 'rack'
   gem 'rspec-collection_matchers'
+  gem 'poltergeist'
+  gem 'database_cleaner'
 end
 
 group :development do

@@ -45,6 +45,7 @@ group :development, :test do
   gem 'shoulda'
   gem 'faker'
   gem 'rack'
+  gem 'rspec-collection_matchers'
 end
 
 group :development do

@@ -6,17 +6,17 @@ Museum Passport (backend)
 
 User Stories
 
-As a small child with low attention span,
+As a child,
 I want an activity that will involve me in the exhibit I am seeing.
 
-As a small child, growing up in an age where instant gratification is the norm,
+As a child,
 I want to recieve sticker rewards for going round an exhibt.
 
-As a small child, with no real interest in what I'm seeing or how much its costing my parents,
+As a child,
 I want to collect stickers to confirm when I've been to a museum.
 
-As a small child, who sees myself as the center of my own personal universe,
+As a child,
 I want to be able to log in to my own account.
 
-As a small child with no memory of where I am or where I'm going,
-I want to be able to see a record of where I've visited.
+As child,
+I want to be able to see a record of where I've visited, the exhibits and questions.

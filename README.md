@@ -10,7 +10,7 @@ As a child,
 I want an activity that will involve me in the exhibit I am seeing.
 
 As a child,
-I want to recieve sticker rewards for going round an exhibt.
+I want to receive sticker rewards for going round an exhibit.
 
 As a child,
 I want to collect stickers to confirm when I've been to a museum.

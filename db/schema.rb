@@ -11,10 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160322113931) do
+ActiveRecord::Schema.define(version: 20160323165732) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "answers", force: :cascade do |t|
+    t.text     "entry"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "question_id"
+  end
+
+  add_index "answers", ["question_id"], name: "index_answers_on_question_id", using: :btree
 
   create_table "exhibits", force: :cascade do |t|
     t.string   "name"
@@ -40,6 +49,7 @@ ActiveRecord::Schema.define(version: 20160322113931) do
 
   add_index "questions", ["exhibit_id"], name: "index_questions_on_exhibit_id", using: :btree
 
+  add_foreign_key "answers", "questions"
   add_foreign_key "exhibits", "museums"
   add_foreign_key "questions", "exhibits"
 end

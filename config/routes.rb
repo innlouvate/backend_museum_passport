@@ -5,7 +5,9 @@ root to: 'application#index'
 
   resources :museums do
     resources :exhibits do
-      resources :questions
+      resources :questions do
+        resources :answers
+      end
     end
   end
 

@@ -1,6 +1,10 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/helpers/answers_helper.rb": [
+        1,
+        null
+      ],
       "/Users/RachelSmith/final_project/backend_museum_passport/app/helpers/application_helper.rb": [
         1,
         null
@@ -17,12 +21,18 @@
         1,
         null
       ],
-      "/Users/RachelSmith/final_project/backend_museum_passport/app/controllers/exhibits_controller.rb": [
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/controllers/answers_controller.rb": [
         1,
         null,
         1,
         1,
         null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        2,
         null,
         null,
         null,
@@ -37,6 +47,19 @@
         1,
         null,
         1,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/controllers/exhibits_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -64,13 +87,44 @@
         1,
         null,
         1,
+        2,
+        null,
+        null,
+        1,
         1,
         null,
         null,
         null,
+        1,
+        2,
+        2,
+        2,
         null,
         null,
         null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/models/answer.rb": [
+        1,
+        1,
         null,
         null
       ],
@@ -94,8 +148,6 @@
         null
       ]
     },
-
-    "timestamp": 1458744165
-    82863bdafbdf20974d304b496c4594765849b2d5
+    "timestamp": 1458759176
   }
 }

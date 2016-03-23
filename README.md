@@ -1,7 +1,13 @@
+Museum Passport (backend)
+==========================
+[![Coverage Status](https://coveralls.io/repos/github/innlouvate/backend_museum_passport/badge.svg?branch=auto-testing)](https://coveralls.io/github/innlouvate/backend_museum_passport?branch=auto-testing)
+[![Build Status](https://travis-ci.org/innlouvate/backend_museum_passport.svg?branch=master)](https://travis-ci.org/innlouvate/backend_museum_passport)
+
+
 User Stories
 
 As a small child with low attention span,
-I want an activity that will involve me in the exhibit I am seeing. 
+I want an activity that will involve me in the exhibit I am seeing.
 
 As a small child, growing up in an age where instant gratification is the norm,
 I want to recieve sticker rewards for going round an exhibt.

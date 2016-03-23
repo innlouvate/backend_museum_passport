@@ -1,0 +1,99 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/helpers/exhibits_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/helpers/museums_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/helpers/questions_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/controllers/exhibits_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/controllers/museums_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/controllers/questions_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/models/exhibit.rb": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/models/museum.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/RachelSmith/final_project/backend_museum_passport/app/models/question.rb": [
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1458726403
+  }
+}

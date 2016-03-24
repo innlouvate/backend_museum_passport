@@ -4,7 +4,7 @@ class AnswersController < ApplicationController
   respond_to :json
 
   def create
-    @answer = Answer.new(answer_params)
+    @answer = Answer.new(entry: params[:entry], question_id: params[:question_id])
     # @response.user_id = current_user.id
     if @answer.save
       respond_to do |format|
@@ -12,11 +12,10 @@ class AnswersController < ApplicationController
       end
     end
 
-    private
 
-    def answer_params
-      params.require(:answer).permit(:entry, :question_id)
-    end
+  def answer_params
+    params.require(:answer).permit(:entry, :question)
+  end
 
   end
 

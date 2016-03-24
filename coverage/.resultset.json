@@ -28,6 +28,8 @@
         1,
         null,
         1,
+        null,
+        1,
         1,
         null,
         1,
@@ -49,10 +51,10 @@
         1,
         null,
         null,
-        1,
+        null,
         null,
         1,
-        null,
+        1,
         null
       ],
       "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/exhibits_controller.rb": [
@@ -127,6 +129,20 @@
         null,
         null
       ],
+      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/user/sessions_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null
+      ],
       "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/models/answer.rb": [
         1,
         1,
@@ -151,8 +167,26 @@
         1,
         null,
         null
+      ],
+      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/user/passwords_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/user/registrations_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/models/user.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1458818264
+    "timestamp": 1458835524
   }
 }

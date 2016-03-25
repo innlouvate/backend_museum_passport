@@ -1,5 +1,13 @@
 Rails.application.routes.draw do
 
+  resources :cors
+
+  match '/museums/:museum_id/exhibits/:exhibit_id/questions/:question_id/answers' => 'answers#options',
+  :constraints => {:method => 'OPTIONS'}, via: [:options]
+
+  devise_for :users, :controllers => {sessions: 'user/sessions',
+  registrations: 'user/registrations', passwords: 'user/passwords'}
+
 root to: 'application#index'
 
 

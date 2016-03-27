@@ -1,2 +1,2 @@
-collection @museums
+collection @exhibits
   attributes :id, :name

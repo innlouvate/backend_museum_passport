@@ -4,7 +4,7 @@ class ExhibitsController < ApplicationController
 respond_to :json
 
 def index
-  @exhibits = Exhibit.all
+  @exhibits = Exhibit.where(museum_id: params[:museum_id])
 end
 
 before_filter :cors_preflight_check

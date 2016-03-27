@@ -5,7 +5,7 @@ class QuestionsController < ApplicationController
 respond_to :json
 
   def index
-    @questions = Question.all
+    @questions = Question.where(exhibit_id: params[:exhibit_id])
   end
 
   before_filter :cors_preflight_check

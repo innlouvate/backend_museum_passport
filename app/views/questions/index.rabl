@@ -1,2 +1,2 @@
 collection @questions
-  attributes :id, :description
+  attributes :id, :description, :exhibit_id

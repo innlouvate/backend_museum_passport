@@ -1,2 +1,2 @@
 collection @exhibits
-  attributes :id, :name
+  attributes :id, :name, :museum_id

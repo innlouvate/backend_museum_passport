@@ -19,7 +19,6 @@ describe QuestionsController do
 
   it "the requests support CORS headers" do
     get :index, museum_id: @test_museum.id, exhibit_id: @test_exhibit.id
-
     expect(response.headers['Access-Control-Allow-Origin']).to eq('*')
     expect(response.headers['Access-Control-Allow-Methods']).to eq('POST, GET, OPTIONS')
   end

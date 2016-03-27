@@ -1,27 +1,27 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/helpers/answers_helper.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/helpers/answers_helper.rb": [
         1,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/helpers/application_helper.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/helpers/exhibits_helper.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/helpers/exhibits_helper.rb": [
         1,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/helpers/museums_helper.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/helpers/museums_helper.rb": [
         1,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/helpers/questions_helper.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/helpers/questions_helper.rb": [
         1,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/answers_controller.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/answers_controller.rb": [
         1,
         null,
         1,
@@ -64,7 +64,7 @@
         null,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/application_controller.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -74,7 +74,7 @@
         1,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/exhibits_controller.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/exhibits_controller.rb": [
         1,
         null,
         1,
@@ -111,55 +111,12 @@
         null,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/museums_controller.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/museums_controller.rb": [
         1,
         null,
         1,
         null,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/questions_controller.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        2,
-        2,
-        2,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        2,
-        0,
-        0,
-        0,
-        0,
-        0,
         null,
         null,
         null,
@@ -170,7 +127,50 @@
         null,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/user/sessions_controller.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/questions_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/user/sessions_controller.rb": [
         1,
         1,
         null,
@@ -184,37 +184,38 @@
         null,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/models/answer.rb": [
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/models/exhibit.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/models/answer.rb": [
         1,
         1,
         1,
         null,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/models/museum.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/models/exhibit.rb": [
         1,
-        1,
-        null,
-        null
-      ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/models/question.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/user/passwords_controller.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/models/museum.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/models/question.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/user/passwords_controller.rb": [
         0,
         0,
         0
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/controllers/user/registrations_controller.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/controllers/user/registrations_controller.rb": [
         0,
         0,
         0,
@@ -248,7 +249,9 @@
         0,
         0
       ],
-      "/Users/vgray/Dropbox/Projects/backend_museum_passport/app/models/user.rb": [
+      "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/models/user.rb": [
+        0,
+        0,
         0,
         0,
         0,
@@ -257,6 +260,6 @@
         0
       ]
     },
-    "timestamp": 1459084033
+    "timestamp": 1459088096
   }
 }

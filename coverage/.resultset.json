@@ -165,9 +165,9 @@
         null,
         null,
         1,
-        2,
-        2,
-        2,
+        0,
+        0,
+        0,
         null,
         null,
         null,
@@ -228,6 +228,7 @@
       "/Users/louisefranklin/Documents/Code/Makers/finals/backend_ museum_passport/app/models/question.rb": [
         1,
         1,
+        1,
         null,
         null
       ],
@@ -281,6 +282,6 @@
         0
       ]
     },
-    "timestamp": 1459087962
+    "timestamp": 1459090547
   }
 }

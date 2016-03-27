@@ -14,7 +14,7 @@ root to: 'application#index'
   resources :museums do
     resources :exhibits do
       resources :questions do
-        resources :answers
+          resources :answers
       end
     end
   end

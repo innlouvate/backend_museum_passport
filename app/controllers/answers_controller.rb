@@ -17,6 +17,16 @@ class AnswersController < ApplicationController
     end
   end
 
+  def update
+    @answer = Answer.update(params[:answer_id], entry: params[:entry])
+    if @answer.save
+      respond_to do |format|
+        format.json{render :json => @answer, :status => :updated}
+      end
+    end
+  end
+
+
 
   def answer_params
     params.require(:answer).permit(:entry, :question)

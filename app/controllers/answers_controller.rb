@@ -8,7 +8,7 @@ class AnswersController < ApplicationController
   # protect_from_forgery with: :null_session
 
   def create
-    @answer = Answer.new(entry: params[:entry], question_id: params[:question_id])
+    @answer = Answer.new(entry: params[:entry], question_id: params[:question_id], user_id: current_user.id)
     # @response.user_id = current_user.id
     if @answer.save
       respond_to do |format|

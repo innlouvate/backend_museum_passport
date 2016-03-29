@@ -11,7 +11,7 @@ Rails.application.routes.draw do
 root to: 'application#index'
 
 
-  resources :museums do
+  resources :museums, shallow: true do
     resources :exhibits do
       resources :questions do
           resources :answers

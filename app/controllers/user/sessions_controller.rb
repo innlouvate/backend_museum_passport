@@ -1,6 +1,8 @@
 class User::SessionsController < Devise::SessionsController
   respond_to :json, :html
 
+
+
   def create
     sign_out(:user) if current_user
     self.resource = warden.authenticate!(auth_options)

@@ -34,7 +34,7 @@ class AnswersController < ApplicationController
 
 
   def create
-    @answer = Answer.new(entry: params[:entry], question_id: params[:question_id], user_id: params[:user_id])
+    @answer = Answer.new(entry: params[:entry], image: params[:image], question_id: params[:question_id], user_id: params[:user_id])
     # @response.user_id = current_user.id
     if @answer.save
       respond_to do |format|
@@ -44,7 +44,7 @@ class AnswersController < ApplicationController
   end
 
   def update
-    if @answer = Answer.update(params[:answer_id], entry: params[:entry])
+    if @answer = Answer.update(params[:answer_id], entry: params[:entry], image: params[:image])
       respond_to do |format|
         format.json{render :json => @answer, :status => :updated}
       end

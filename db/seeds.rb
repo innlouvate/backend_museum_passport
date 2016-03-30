@@ -18,6 +18,12 @@ questions_Ex_three = ["Can you find the oldest steam engine in this hall?", "Whe
 
 questions_Ex_four = ["Can you find Stephenson’s Rocket? What is it?", "How many cars are in this hall?", "What is the smallest item you can find in this gallery?", "If you were an inventor, what would you make?"]
 
+word_list_game = [["exploring","space","astronauts","moon"], ["information","wireless","technology","broadcast"], ["energy","engine","steam","electricity"], ["modern","inventor","world","train"]]
+
+word_list_game.each do |w|
+  GameWord.create!(wordlist: w)
+end
+
 museums.each do |m|
   Museum.create!(name: m)
 end

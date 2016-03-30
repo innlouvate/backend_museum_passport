@@ -19,6 +19,8 @@ root to: 'application#index'
     end
   end
 
+  resources :game_words
+
 
 
 

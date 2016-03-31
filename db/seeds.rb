@@ -67,7 +67,7 @@ end
 questions_Ex_two_a.each do |q|
   Question.create!(description: q, exhibit_id: 5)
 end
-questions_Ex_two_d_b.each do |q|
+questions_Ex_two_b.each do |q|
   Question.create!(description: q, exhibit_id: 6)
 end
 questions_Ex_two_c.each do |q|
